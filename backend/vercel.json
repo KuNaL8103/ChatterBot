@@ -1,16 +1,30 @@
 {
-    "installCommand" : "npm install --legacy-peer-deeps",
-    "version": 2,
-    "builds": [
-      { 
-        "src": "backend/index.js", 
-        "use": "@vercel/node" 
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/index.js",
+      "use": "@vercel/node",
+      "config": {
+        "installCommand": "npm install --legacy-peer-deps"
       }
-    ],
-    "routes": [
-      { 
-        "src": "/(.*)", 
-        "dest": "backend/index.js" 
+    },
+    {
+      "src": "client/vite.config.js",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "client/dist",
+        "buildCommand": "npm install && npm run build"
       }
-    ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "backend/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "client/dist/$1"
+    }
+  ]
 }
