@@ -1,4 +1,5 @@
 {
+  "installCommand" : "npm install --legacy-peer-deeps",
   "version": 2,
   "builds": [
     {
