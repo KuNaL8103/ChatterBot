@@ -29,10 +29,10 @@ This project is a full-stack AI-powered chat application built using **React**, 
    git clone https://github.com/your-username/ai-chat-app.git
    cd ai-chat-app
    
-2. **Install dependencies for frontend:**
+2. **Install dependencies for client:**
 
    ```bash
-   cd frontend
+   cd client
    npm install
 
 3. **Install dependencies for backend:**
@@ -41,7 +41,7 @@ This project is a full-stack AI-powered chat application built using **React**, 
    cd backend
    npm install
 
-4. **Set up environment variables (frontend):**
+4. **Set up environment variables (client):**
 
    ```bash
    # Clerk Configuration for User Authentication
@@ -54,7 +54,6 @@ This project is a full-stack AI-powered chat application built using **React**, 
    # Google Gemini AI API Configuration
    VITE_GEMINI_PUBLIC_KEY=<your_gemini_public_key>
 
-   # API URL (Backend URL for API Requests)
    VITE_API_URL=<your_backend_url>
 
 5. **Set up environment variables (backend):**
@@ -72,7 +71,6 @@ This project is a full-stack AI-powered chat application built using **React**, 
    CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
    CLERK_SECRET_KEY=<your_clerk_secret_key>
 
-   # Client URL (Frontend URL)
    CLIENT_URL=<your_frontend_url>
 
 6. **Start the backend server:**
@@ -80,7 +78,7 @@ This project is a full-stack AI-powered chat application built using **React**, 
    ```bash
    npm start
 
-7. **Start the frontend server:**
+7. **Start the client server:**
 
    ```bash
    npm run dev
