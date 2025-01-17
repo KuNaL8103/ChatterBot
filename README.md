@@ -3,6 +3,7 @@
 This project is a full-stack AI-powered chat application built using **React**, **Express**, **MongoDB**, and **Google Gemini AI**. It allows users to chat in real-time with an AI and supports features like image analysis and dynamic routing.
 
 ## Features
+
 - Real-time AI chat streaming
 - Image analysis using advanced AI models
 - User authentication and protected routes
@@ -10,6 +11,7 @@ This project is a full-stack AI-powered chat application built using **React**, 
 - Efficient state management and API response optimization
 
 ## Technologies Used
+
 - **Frontend:** React.js
 - **Backend:** Express.js, Node.js
 - **Database:** MongoDB
@@ -18,6 +20,7 @@ This project is a full-stack AI-powered chat application built using **React**, 
 ## Installation
 
 ### Prerequisites
+
 - Node.js (v14 or above)
 - MongoDB installed locally or use MongoDB Atlas for cloud hosting
 
@@ -28,18 +31,24 @@ This project is a full-stack AI-powered chat application built using **React**, 
    ```bash
    git clone https://github.com/your-username/ai-chat-app.git
    cd ai-chat-app
-   
+
+   ```
+
 2. **Install dependencies for client:**
 
    ```bash
    cd client
    npm install
 
+   ```
+
 3. **Install dependencies for backend:**
 
    ```bash
    cd backend
    npm install
+
+   ```
 
 4. **Set up environment variables (client):**
 
@@ -55,6 +64,8 @@ This project is a full-stack AI-powered chat application built using **React**, 
    VITE_GEMINI_PUBLIC_KEY=<your_gemini_public_key>
 
    VITE_API_URL=<your_backend_url>
+
+   ```
 
 5. **Set up environment variables (backend):**
 
@@ -73,16 +84,30 @@ This project is a full-stack AI-powered chat application built using **React**, 
 
    CLIENT_URL=<your_frontend_url>
 
+   ```
+
 6. **Start the backend server:**
 
    ```bash
    npm start
+
+   ```
 
 7. **Start the client server:**
 
    ```bash
    npm run dev
 
+   ```
+
 8. **Access the Application:**
 
    Open your browser and go to http://localhost:3000 to use the chat application.
+
+9. **Screenshots:**
+
+   !(client/public/Screenshot (1).png)
+
+   !(client/public/Screenshot (2).png)
+
+   !(client/public/Screenshot (3).png)
