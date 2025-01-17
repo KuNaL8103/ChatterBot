@@ -106,8 +106,8 @@ This project is a full-stack AI-powered chat application built using **React**, 
 
 9. **Screenshots:**
 
-   !(client/public/Screenshot (1).png)
+   !(client/public/Screenshot%20(1).png)
 
-   !(client/public/Screenshot (2).png)
+   !(client/public/Screenshot%20(2).png)
 
-   !(client/public/Screenshot (3).png)
+   !(client/public/Screenshot%20(3).png)
