@@ -29,8 +29,8 @@ This project is a full-stack AI-powered chat application built using **React**, 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/ai-chat-app.git
-   cd ai-chat-app
+   git clone https://github.com/KuNaL8103/Kotoha.git
+   cd Kotoha
 
    ```
 
