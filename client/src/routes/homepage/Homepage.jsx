@@ -10,10 +10,10 @@ const Homepage = () => {
     <div className="homepage">
       <img src="/orbital.png" alt="" className="orbital" />
       <div className="left">
-        <h1>Kotoha</h1>
-        <h2>Build smarter conversations with our advanced Kotoha.</h2>
+        <h1>ChatterBot</h1>
+        <h2>Build smarter conversations with our advanced ChatterBot.</h2>
         <h3>
-          Kotoha is an advanced technology designed to simulate human-like
+          ChatterBot is an advanced technology designed to simulate human-like
           conversations, making interactions faster, smarter, and more engaging.
         </h3>
         <Link to="/dashboard">Get Started</Link>
