@@ -1,4 +1,4 @@
-# Kotoha
+# ChatterBot
 
 This project is a full-stack AI-powered chat application built using **React**, **Express**, **MongoDB**, and **Google Gemini AI**. It allows users to chat in real-time with an AI and supports features like image analysis and dynamic routing.
 
@@ -29,8 +29,8 @@ This project is a full-stack AI-powered chat application built using **React**, 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/KuNaL8103/Kotoha.git
-   cd Kotoha
+   git clone https://github.com/KuNaL8103/ChatterBot.git
+   cd ChatterBot
 
    ```
 
@@ -38,7 +38,7 @@ This project is a full-stack AI-powered chat application built using **React**, 
 
    ```bash
    cd client
-   npm install
+   npm install --force
 
    ```
 
@@ -46,7 +46,7 @@ This project is a full-stack AI-powered chat application built using **React**, 
 
    ```bash
    cd backend
-   npm install
+   npm install --force
 
    ```
 
@@ -100,11 +100,7 @@ This project is a full-stack AI-powered chat application built using **React**, 
 
    ```
 
-8. **Access the Application:**
-
-   Open your browser and go to http://localhost:3000 to use the chat application.
-
-9. **Screenshots:**
+8. **Screenshots:**
 
    ![screenshot](client/public/Screenshot%20(1).png)
 
